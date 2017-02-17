@@ -1,0 +1,49 @@
+video#itro__video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	width: auto;
+	height: 100%;
+	height: auto;
+}
+h1#logo {
+	img {
+		display: inline-block;
+		float: left;
+		position: relative;
+		z-index: 1;
+	}
+}
+.header {margin: 40px 0 225px 0;}
+.nav {
+	display: flex;
+	justify-content: flex-end;
+}
+.nav li a,
+#touch-menu {
+	display: block;
+	padding: 10px 15px;
+	color: $secondary_font_color;
+	font: 700 14px/24px $primary_font;
+	text-transform: uppercase;
+}
+.nav li a:hover {color: $primary_font_color;	}
+#touch-menu:hover {color: $primary_font_color;}
+#touch-menu {display: none;}
+.hero {
+	position: relative;
+	z-index: 2;
+	text-align: center;
+}
+.primary__title {
+	color: $head_font_color;
+	font: 700 72px $primary_font;
+}
+.primary__subtitle {
+	color: $head_font_color;
+	font: 400 30px $secondary_font;
+	text-transform: uppercase;
+}

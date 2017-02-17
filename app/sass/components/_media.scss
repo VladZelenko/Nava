@@ -1,0 +1,25 @@
+	@media (min-width: 320px) and (max-width: 768px) {
+		.nav {
+			display: none;
+			li a {
+				border-top: 1px solid #eee;
+				background: $secondary_font_color;
+				color: $primary_font_color;
+
+				&:hover {
+					background: #f0f0f0;
+					color: $secondary_font_color;
+					border-left: 3px solid $primary_font_color;
+				}
+			}
+		}
+		.nav li:first-child a {border-top: none;}
+		#touch-menu {
+			display: flex;
+			justify-content: flex-end;
+			margin-top: 20px;
+			text-decoration: none;
+
+			.fa-bars {font-size: 22px;}
+		}
+	}

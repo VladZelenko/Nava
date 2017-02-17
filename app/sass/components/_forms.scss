@@ -1,0 +1,36 @@
+	.hero-form {margin: 90px 0 230px 0;
+		.in-form {
+			margin-right: 0;
+			width: 570px;
+			height: 60px;
+			color: #717171;
+			font: 400 14px $primary_font;
+			text-transform: uppercase;
+		}
+		.hero-form-btn {
+			position: relative;
+			right: 5px;
+			width: 200px;
+			height: 60px;
+			color: $secondary_font_color;
+			font: 700 14px $primary_font;
+			border-radius: 0 5px 5px 0;
+			background-color: #e7434e;
+			border: none;
+		}
+	}
+	.foot__contact__form {
+		input[type="email"] {
+			width: 270px;
+			height: 40px;
+		}
+		.foot__contact__btn {
+			position: relative;
+			right: 5px;
+			width: 145px;
+			height: 40px;
+			border-radius: 0 5px 5px 0;
+			background-color: #e7434e;
+			border: none;
+		}
+	}

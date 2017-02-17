@@ -1,0 +1,30 @@
+.uploading-img {
+	display: block;
+	width: 310px;
+	height: 60px;
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 1px solid rgba(38, 38, 38, 0.3);
+	background-color: rgba(113, 113, 113, 0);
+	&:hover {
+		background-color: #e7434e;
+		color: $secondary_font_color;
+		transition: all .6s ease-in-out .1s;
+	}
+}
+.secondary-btn {
+	max-width: 320px;
+	min-width: 300px;
+	width: 100%;
+	margin: 0 auto;
+	height: 60px;
+	border-radius: 5px;
+	background-color: #e7434e;
+	border: none;
+	&:hover {
+		border: 1px solid rgba(38, 38, 38, 0.3);
+		background-color: $secondary_font_color;
+		color: $primary_font_color;
+		transition: all .6s ease-in-out .1s;
+	}
+}
