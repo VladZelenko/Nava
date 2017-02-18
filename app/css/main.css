@@ -59,6 +59,12 @@ img {
   max-width: 100%;
   height: auto; }
 
+@font-face {
+  font-family: "font-awesome";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../libs/font-awesome/fonts/fontawesome-webfont.svg"), url("../../libs/font-awesome/fonts/fontawesome-webfont.woff2"), url("../../libs/font-awesome/fonts/fontawesome-webfont.eot"), url("../../libs/font-awesome/fonts/FontAwesome.otf"), url("../../libs/font-awesome/fonts/fontawesome-webfont.ttf"), url("../../libs/font-awesome/fonts/fontawesome-webfont.woff"); }
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -6231,6 +6237,31 @@ h1#logo img {
       font: 400 14px/34px "OpenSans", sans-serif; }
   .footer .form__head {
     text-align: center; }
+  .footer .social-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 220px;
+    margin: 0 auto; }
+    .footer .social-icon li {
+      margin: 35px 0 0 20px; }
+      .footer .social-icon li a {
+        display: block;
+        width: 45px;
+        height: 45px;
+        background: #717171;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        text-align: center; }
+    .footer .social-icon .fa {
+      font-size: 24px;
+      line-height: 45px; }
 
 .navbar-btn {
   width: 145px;
@@ -6371,4 +6402,6 @@ h1#logo img {
     text-align: left; }
     .footer .form__head {
       text-align: left;
-      margin-left: 20px; } }
+      margin-left: 20px; }
+    .footer .social-icon {
+      margin: 0; } }
