@@ -35,9 +35,9 @@ h1#logo {
 	color: $secondary_font_color;
 	font: 700 14px/24px $primary_font;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 .nav li a:hover {
-	// color: $primary_font_color;
 	background: none;
 	border-bottom: 3px solid #e7434e;
 	transition: all .6s ease-in-out .1s;

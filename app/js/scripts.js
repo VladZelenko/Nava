@@ -15,7 +15,7 @@ $(document).ready(function(){
 });
 
 
-//
+//fancyBox - modal img
 $(document).ready(function() {
 	$(".gallery-img").fancybox({
 		"padding" : 5,
@@ -29,9 +29,32 @@ $(document).ready(function() {
 		"overlayShow" : true,
 		"overlayOpacity" : 0.8,
 		"hideOnContentClick" :false,
-		"centerOnScroll" : false
+		"centerOnScroll" : false,
+		"cyclic" : false
 	});
 	$("#more").fancybox({
 		"hideOnContentClick" : true
 	});
 });
+
+//uploading img x3
+$(document).ready(function(){
+	$('.up-btn').click(function(){
+			$('.hidden__files').slice(0,3).css({"display" : "block"}).removeClass('.hidden_files');
+	});
+});
+// $(document).ready(function(){
+// 	$('.up-btn').click(function(){
+// 		var a = $('.hidden__files');
+// 		for (i = 0, i <= 3, i++){
+// 			for ( j = 0, j <= a.length, j++) {
+
+// 			}
+// 		}
+// 	});
+// });
+
+//мб спрацює за деяких умов
+// if (a.length == 0) {
+// 	$('.up-btn').css({"display" : "none"})
+// }

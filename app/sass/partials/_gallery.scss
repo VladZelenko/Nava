@@ -83,18 +83,23 @@
 	padding: 30px 0 0 25px;
 	z-index: 122;
 	.caption__overlay {
-		min-height: 200px;
+		height: 100%;
 		display: flex;
 		flex-flow: column wrap;
-		align-content: space-berween;
+		justify-content: space-between;
 		h4 {
-			padding-top: 50px;
+			display: block;
 			color: $secondary_font_color;
 			font: 400 30px $primary_font;
 		}
 		p {
+			display: block;
 			color: $secondary_font_color;
 			font: 400 20px $primary_font;
 		}
+		a {
+			display: block;
+		}
 	}
 }
+.hidden__files {display: none;}
