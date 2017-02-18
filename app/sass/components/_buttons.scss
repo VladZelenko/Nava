@@ -21,6 +21,7 @@
 	border-radius: 5px;
 	background-color: #e7434e;
 	border: none;
+	text-transform: uppercase;
 	&:hover {
 		border: 1px solid rgba(38, 38, 38, 0.3);
 		background-color: $secondary_font_color;

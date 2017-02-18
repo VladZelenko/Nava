@@ -59,8 +59,8 @@ img {
   max-width: 100%;
   height: auto; }
 
-.wrap-container {
-  width: 90%;
+.wrap-container, .container {
+  width: 95%;
   margin: 0 auto; }
 
 /*!
@@ -6063,6 +6063,8 @@ h1#logo img {
   min-height: 950px; }
   .galery .uploading-img {
     margin: 100px auto 80px auto; }
+  .galery .secondary__subtitle {
+    padding-bottom: 85px; }
 
 .secondary__title {
   color: #343435;
@@ -6074,8 +6076,66 @@ h1#logo img {
   font: 400 16px/30px "OpenSans", sans-serif;
   text-align: center; }
 
-.first-block-img {
-  margin: 85px 0 30px 0; }
+.like {
+  display: block;
+  width: 80px;
+  height: 40px;
+  color: #ffffff;
+  font: 700 16px/40px "OpenSans", sans-serif;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #e7434e;
+  text-align: center; }
+  .like:before {
+    float: left;
+    display: block;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: url("../../img/sailboat.png") no-repeat;
+    margin: 10px 0 0 15px; }
+
+.img-box {
+  margin-top: 30px;
+  position: relative;
+  top: 0;
+  left: 0; }
+  .img-box img:hover {
+    position: relative;
+    z-index: 100;
+    -webkit-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+    -webkit-transition: all .5s ease-in-out .2s;
+    transition: all .5s ease-in-out .2s; }
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 30px 0 0 25px;
+  z-index: 122; }
+  .overlay .caption__overlay {
+    min-height: 200px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column wrap;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-align-content: space-berween;
+        -ms-flex-line-pack: space-berween;
+            align-content: space-berween; }
+    .overlay .caption__overlay h4 {
+      padding-top: 50px;
+      color: #ffffff;
+      font: 400 30px "Raleway", sans-serif; }
+    .overlay .caption__overlay p {
+      color: #ffffff;
+      font: 400 20px "Raleway", sans-serif; }
 
 .question__suggestion {
   width: 100%;
@@ -6083,9 +6143,9 @@ h1#logo img {
   padding: 185px 0 160px 0;
   text-align: center;
   text-transform: uppercase;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../../img/photo-14.png") no-repeat;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/photo-14.png") no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/photo-14.png") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../../img/photo-14.png") no-repeat center center;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/photo-14.png") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../img/photo-14.png") no-repeat center center;
   background-size: cover; }
   .question__suggestion .secondary-btn {
     margin-top: 85px; }
@@ -6094,6 +6154,23 @@ h1#logo img {
   padding: 100px 0 85px 0; }
   .galery__price .uploading-img {
     margin-top: 100px; }
+  .galery__price .cost {
+    display: block;
+    width: 105px;
+    height: 42px;
+    color: #ffffff;
+    font: 700 16px/40px "OpenSans", sans-serif;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    background-color: #e7434e;
+    text-align: center; }
+
+.location li {
+  display: inline-block; }
+
+.location a {
+  color: #ffffff;
+  font: 400 16px/40px "OpenSans", sans-serif; }
 
 .footer {
   width: 100%;
@@ -6139,7 +6216,8 @@ h1#logo img {
   -webkit-border-radius: 5px;
           border-radius: 5px;
   background-color: #e7434e;
-  border: none; }
+  border: none;
+  text-transform: uppercase; }
   .secondary-btn:hover {
     border: 1px solid rgba(38, 38, 38, 0.3);
     background-color: #ffffff;

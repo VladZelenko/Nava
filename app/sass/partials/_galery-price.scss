@@ -1,4 +1,22 @@
 .galery__price {
 	padding: 100px 0 85px 0;
 	.uploading-img {margin-top: 100px;}
+	.cost {
+		display: block;
+		width: 105px;
+		height: 42px;
+		color: $secondary_font_color;
+		font: 700 16px/40px $secondary_font;
+		border-radius: 5px;
+		background-color: #e7434e;
+		text-align: center;
+	}
+
+}
+.location {
+	li {display: inline-block;}
+	a {
+		color: $secondary_font_color;
+		font: 400 16px/40px $secondary_font;
+	}
 }
