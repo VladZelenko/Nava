@@ -6025,10 +6025,15 @@ h1#logo img {
   text-transform: uppercase; }
 
 .nav li a:hover {
-  color: #343435; }
+  background: none;
+  border-bottom: 3px solid #e7434e;
+  -webkit-transition: all .6s ease-in-out .1s;
+  transition: all .6s ease-in-out .1s; }
 
 #touch-menu:hover {
-  color: #343435; }
+  color: #e7434e;
+  -webkit-transition: all .6s ease-in-out .1s;
+  transition: all .6s ease-in-out .1s; }
 
 #touch-menu {
   display: none; }
@@ -6207,7 +6212,8 @@ h1#logo img {
 .footer {
   width: 100%;
   min-height: 325px;
-  background-color: #404040; }
+  background-color: #404040;
+  text-align: center; }
   .footer:before {
     display: block;
     content: ' ';
@@ -6223,6 +6229,8 @@ h1#logo img {
     .footer ul a {
       color: #ffffff;
       font: 400 14px/34px "OpenSans", sans-serif; }
+  .footer .form__head {
+    text-align: center; }
 
 .navbar-btn {
   width: 145px;
@@ -6277,7 +6285,7 @@ h1#logo img {
   margin: 90px 0 230px 0; }
   .hero-form .in-form {
     max-width: 570px;
-    min-width: 300px;
+    min-width: 280px;
     width: 100%;
     height: 60px;
     color: #717171;
@@ -6298,15 +6306,16 @@ h1#logo img {
 
 .foot__contact__form input[type="email"] {
   width: 270px;
-  height: 40px; }
+  height: 40px;
+  margin: 0 auto; }
 
 .foot__contact__form .foot__contact__btn {
-  position: relative;
-  right: 5px;
+  display: block;
   width: 145px;
   height: 40px;
-  -webkit-border-radius: 0 5px 5px 0;
-          border-radius: 0 5px 5px 0;
+  margin: 10px auto 0 auto;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   background-color: #e7434e;
   border: none; }
 
@@ -6314,7 +6323,7 @@ h1#logo img {
   .nav {
     position: absolute;
     left: 0;
-    top: 70px;
+    top: 90px;
     display: none;
     width: 100%; }
     .nav li a {
@@ -6344,9 +6353,22 @@ h1#logo img {
 @media (min-width: 768px) {
   .navbar-btn {
     position: relative;
-    bottom: 5px; }
+    bottom: 5px;
+    margin-left: 25px; }
   .hero-form .hero-form-btn {
     -webkit-border-radius: 0 5px 5px 0;
             border-radius: 0 5px 5px 0; }
   .hero-form .hero-form-btn {
-    margin-top: 0; } }
+    margin-top: 0; }
+  .foot__contact__form .foot__contact__btn {
+    position: relative;
+    right: 15px;
+    display: inline;
+    margin: 0;
+    -webkit-border-radius: 0 5px 5px 0;
+            border-radius: 0 5px 5px 0; }
+  .footer {
+    text-align: left; }
+    .footer .form__head {
+      text-align: left;
+      margin-left: 20px; } }

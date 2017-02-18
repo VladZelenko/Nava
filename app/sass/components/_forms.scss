@@ -2,7 +2,7 @@
 		margin: 90px 0 230px 0;
 		.in-form {
 			max-width: 570px;
-			min-width: 300px;
+			min-width: 280px;
 			width: 100%;
 			height: 60px;
 			color: #717171;
@@ -26,13 +26,14 @@
 		input[type="email"] {
 			width: 270px;
 			height: 40px;
+			margin: 0 auto;
 		}
 		.foot__contact__btn {
-			position: relative;
-			right: 5px;
+			display: block;
 			width: 145px;
 			height: 40px;
-			border-radius: 0 5px 5px 0;
+			margin: 10px auto 0 auto;
+			border-radius: 5px;
 			background-color: #e7434e;
 			border: none;
 		}

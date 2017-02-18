@@ -2,6 +2,7 @@
 	width: 100%;
 	min-height: 325px;
 	background-color: #404040;
+	text-align: center;
 	&:before {
 		display: block;
 		content: ' ';
@@ -21,4 +22,5 @@
 			font: 400 14px/34px $secondary_font;
 		}
 	}
+	.form__head {text-align: center;}
 }

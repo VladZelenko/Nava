@@ -2,7 +2,7 @@
 		.nav {
 			position: absolute;
 			left: 0;
-			top: 70px;
+			top: 90px;
 			display: none;
 			width: 100%;
 			li a {
@@ -31,9 +31,26 @@
 		.navbar-btn {
 			position: relative;
 			bottom: 5px;
+			margin-left: 25px;
 		}
 		.hero-form {
 			.hero-form-btn {border-radius: 0 5px 5px 0;}
 			.hero-form-btn {margin-top: 0;}
+		}
+		.foot__contact__form {
+			.foot__contact__btn {
+				position: relative;
+				right: 15px;
+				display: inline;
+				margin: 0;
+				border-radius: 0 5px 5px 0;
+			}
+		}
+		.footer {
+			text-align: left;
+			.form__head {
+				text-align: left;
+				margin-left: 20px;
+			}
 		}
 	}
