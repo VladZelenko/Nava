@@ -15,6 +15,7 @@
 	background: url('../../img/intro-bg.png')no-repeat center center;
 	background-size: cover;
 }
+.header {padding-top: 20px;}
 h1#logo {
 	img {
 		display: inline-block;
@@ -23,7 +24,6 @@ h1#logo {
 		// z-index: 1;
 	}
 }
-// .header {margin: 40px 0 225px 0;}
 .nav {
 	display: flex;
 	justify-content: flex-end;
@@ -31,18 +31,22 @@ h1#logo {
 .nav li a,
 #touch-menu {
 	display: block;
-	padding: 10px 15px;
+	padding: 10px 25px;
 	color: $secondary_font_color;
 	font: 700 14px/24px $primary_font;
 	text-transform: uppercase;
 }
-.nav li a:hover {color: $primary_font_color;	}
+.nav li a:hover {color: $primary_font_color;}
 #touch-menu:hover {color: $primary_font_color;}
 #touch-menu {display: none;}
 .hero {
 	position: relative;
 	z-index: 2;
 	text-align: center;
+}
+.hero {
+	.primary__title {margin-top: 225px;}
+	.primary__subtitle {margin-bottom: 90px;}
 }
 .primary__title {
 	color: $head_font_color;

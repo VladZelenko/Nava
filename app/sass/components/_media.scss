@@ -1,6 +1,10 @@
 	@media (min-width: 320px) and (max-width: 768px) {
 		.nav {
+			position: absolute;
+			left: 0;
+			top: 70px;
 			display: none;
+			width: 100%;
 			li a {
 				border-top: 1px solid #eee;
 				background: $secondary_font_color;
@@ -21,5 +25,15 @@
 			text-decoration: none;
 
 			.fa-bars {font-size: 22px;}
+		}
+	}
+	@media (min-width: 768px) {
+		.navbar-btn {
+			position: relative;
+			bottom: 5px;
+		}
+		.hero-form {
+			.hero-form-btn {border-radius: 0 5px 5px 0;}
+			.hero-form-btn {margin-top: 0;}
 		}
 	}

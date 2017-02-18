@@ -3,6 +3,35 @@
 	min-height: 950px;
 	.uploading-img {margin: 100px auto 80px auto;}
 	.secondary__subtitle {padding-bottom: 85px;}
+	.banner {
+		position: relative;
+		bottom: 70px;
+		max-width: 1200px;
+		min-width: 300px;
+		width: 100%;
+		min-height: 140px;
+		margin: 0 auto;
+		box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+		border-radius: 5px;
+		background-color: #ffffff;
+		text-align: center;
+		div {
+			min-height: 140px;
+			display: flex;
+			flex-flow: column wrap;
+			justify-content: center;
+		}
+		i {
+			display: block;
+			color: $primary_font_color;
+			font: 700 30px $secondary_font;
+		}
+		span {
+			display: block;
+			color: #717171;
+			font: 400 18px/40px $secondary_font;
+		}
+	}
 }
 .secondary__title {
 	color: $primary_font_color;

@@ -1,3 +1,19 @@
+.navbar-btn {
+	width: 145px;
+	height: 40px;
+	color: $head_font_color;
+	font: 700 16px/40px $head_font_color;
+	border-radius: 5px;
+	border: 1px solid #f9fafe;
+	background-color: rgba(201, 9, 4, 0);
+	&:hover {
+		border: 1px solid rgba(38, 38, 38, 0.3);
+		background-color: #e7434e;
+		color: $secondary_font_color;
+		transition: all .6s ease-in-out .1s;
+	}
+}
+
 .uploading-img {
 	display: block;
 	width: 310px;

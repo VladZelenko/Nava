@@ -18,7 +18,7 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.7",
     "jquery": "^3.1.1",
-    "bigSlide": "^0.12.0",
-    "fancybox": "fancyBox#^2.1.6"
+    "fancybox": "fancyBox#^2.1.6",
+    "font-awesome": "^4.7.0"
   }
 }
