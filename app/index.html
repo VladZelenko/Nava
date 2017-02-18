@@ -5,15 +5,16 @@
 	<title>Nava</title>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="libs/fancybox/source/jquery.fancybox.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<section class="into">
-		<video id="itro__video" autoplay="" poster="img/Landscapes.mp4" loop="" class="hidden-xs">
+		<!-- <video id="itro__video" autoplay="" poster="img/Landscapes.mp4" loop="" class="hidden-xs">
 			<source src="img/Landscapes.mp4" type='video/mp4'>
-			</video>
+			</video> щось воно в мене портить всю малину-->
 			<header class="header">
-				<div class="wrap-container">
+				<div class="container">
 					<h1 id="logo">
 						<a href="#">
 							<img src="img/Nava-logo.png" alt="">
@@ -30,7 +31,7 @@
 				</div>
 			</header>
 			<div class="hero">
-				<div class="wrap-container">
+				<div class="container">
 					<h2 class="primary__title">RESERVE A BOAT NOW!</h2>
 					<p class="primary__subtitle">and set your sails into paradise!</p>
 					<form class="navbar-form hero-form" role="search">
@@ -43,14 +44,14 @@
 			</div>
 		</section>
 
-		<section class="galery">
+		<section class="gallery">
 			<div class="container">
 				<h2 class="secondary__title">EXPLORE OUR TOP DESTINATIONS</h2>
 				<p class="secondary__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
 				<div class="row first-block-img">
 					<div class="col-md-8">
 						<div class="img-box">
-							<img src="img/galery-1.png" alt="" class="img-responsive">
+							<a class="gallery-img" href="img/galery-1.png"><img src="img/galery-1.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="like">730</span></a>
@@ -62,7 +63,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="img-box">
-							<img src="img/galery-2.png" alt="" class="img-responsive">
+							<a class="gallery-img" href="img/galery-2.png"><img src="img/galery-2.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="like">621</span></a>
@@ -76,7 +77,7 @@
 				<div class="row">
 					<div class="col-md-4">
 						<div class="img-box">
-							<img src="img/galery-3.png" alt="" class="img-responsive">
+							<a class="gallery-img" href="img/galery-3.png"><img src="img/galery-3.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="like">543</span></a>
@@ -88,7 +89,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="img-box">
-							<img src="img/galery-4.png" alt="" class="img-responsive">
+							<a class="gallery-img" href="img/galery-4.png"><img src="img/galery-4.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="like">495</span></a>
@@ -100,7 +101,7 @@
 					</div>
 					<div class="col-md-4">
 						<div class="img-box">
-							<img src="img/galery-5.png" alt="" class="img-responsive">
+							<a class="gallery-img" href="img/galery-5.png"><img src="img/galery-5.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="like">402</span></a>
@@ -123,21 +124,21 @@
 			</div>
 		</section>
 
-		<section class="galery__price">
+		<section class="gallery__price">
 			<div class="container">
 				<h2 class="secondary__title">FEATURED BOATS</h2>
 				<p class="secondary__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="img-box">
-							<img src="img/g-p-1.png" alt="" class="img-responsive">
+								<a class="gallery-img" href="img/g-p-1.png"><img src="img/g-p-1.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="cost">€580 / day</span></a>
 									<h4>Delphia 47</h4>
 									<ul class="location">
 										<li><a href="#" class="map"><i class="fa fa-map-marker" aria-hidden="true"></i>Gdańsk, Poland</a></li>
-										<li><a href="#" class="offer">8 Berths</a></li>
+										<li><a href="#" class="offer"><i class="fa fa-users" aria-hidden="true"></i>8 Berths</a></li>
 									</ul>
 								</div>
 							</div>
@@ -145,14 +146,14 @@
 					</div>
 					<div class="col-md-6">
 						<div class="img-box">
-							<img src="img/g-p-2.png" alt="" class="img-responsive">
+								<a class="gallery-img" href="img/g-p-2.png"><img src="img/g-p-2.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="cost">€950 / day</span></a>
 									<h4>Sense 55</h4>
 									<ul class="location">
 										<li><a href="#" class="map"><i class="fa fa-map-marker" aria-hidden="true"></i>Portofino, Italy</a></li>
-										<li><a href="#" class="offer">12 Berths</a></li>
+										<li><a href="#" class="offer"><i class="fa fa-users" aria-hidden="true"></i>12 Berths</a></li>
 									</ul>
 								</div>
 							</div>
@@ -160,14 +161,14 @@
 					</div>
 					<div class="col-md-6">
 						<div class="img-box">
-							<img src="img/g-p-3.png" alt="" class="img-responsive">
+								<a class="gallery-img" href="img/g-p-3.png"><img src="img/g-p-3.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="cost">€820 / day</span></a>
 									<h4>Crusier 51</h4>
 									<ul class="location">
 										<li><a href="#" class="map"><i class="fa fa-map-marker" aria-hidden="true"></i>Palma de Mallorca, Spain</a></li>
-										<li><a href="#" class="offer">10 Berths</a></li>
+										<li><a href="#" class="offer"><i class="fa fa-users" aria-hidden="true"></i>10 Berths</a></li>
 									</ul>
 								</div>
 							</div>
@@ -175,14 +176,14 @@
 					</div>
 					<div class="col-md-6">
 						<div class="img-box">
-							<img src="img/g-p-4.png" alt="" class="img-responsive">
+								<a class="gallery-img" href="img/g-p-4.png"><img src="img/g-p-4.png" alt="" class="img-responsive"></a>
 							<div class="overlay">
 								<div class="caption__overlay">
 									<a href="#"><span class="cost">€400 / day</span></a>
 									<h4>Crusier 41S</h4>
 									<ul class="location">
 										<li><a href="#" class="map"><i class="fa fa-map-marker" aria-hidden="true"></i>Lisbon, Portugald</a></li>
-										<li><a href="#" class="offer">8 Berths</a></li>
+										<li><a href="#" class="offer"><i class="fa fa-users" aria-hidden="true"></i>8 Berths</a></li>
 									</ul>
 								</div>
 							</div>
@@ -245,7 +246,8 @@
 		</footer>
 		<script src="libs/jquery/dist/jquery.min.js"></script>
 		<script src="libs/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-
+		<script src="libs/fancybox/source/jquery.fancybox.js"></script>
+		<script src="libs/fancybox/lib/jquery.mousewheel.pack.js"></script>
 		<script src="js/scripts.js"></script>
 	</body>
 	</html>

@@ -13,3 +13,25 @@ $(document).ready(function(){
 		}
 	});
 });
+
+
+//
+$(document).ready(function() {
+	$(".gallery-img").fancybox({
+		"padding" : 5,
+		"imageScale" : true,
+		"zoomOpacity" : 0.8,
+		"zoomSpeedIn" : 3000,
+		"zoomSpeedOut" : 3000,
+		"zoomSpeedChange" : 2000,
+		"frameWidth" : 700,
+		"frameHeight" : 600,
+		"overlayShow" : true,
+		"overlayOpacity" : 0.8,
+		"hideOnContentClick" :false,
+		"centerOnScroll" : false
+	});
+	$("#more").fancybox({
+		"hideOnContentClick" : true
+	});
+});

@@ -59,10 +59,6 @@ img {
   max-width: 100%;
   height: auto; }
 
-.wrap-container, .container {
-  width: 95%;
-  margin: 0 auto; }
-
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -5997,25 +5993,15 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-video#itro__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  width: auto;
-  height: 100%;
-  height: auto; }
+.into {
+  width: 100%;
+  min-height: 800px;
+  background: url("../../img/intro-bg.png") no-repeat center center;
+  background-size: cover; }
 
 h1#logo img {
   display: inline-block;
-  float: left;
-  position: relative;
-  z-index: 1; }
-
-.header {
-  margin: 40px 0 225px 0; }
+  float: left; }
 
 .nav {
   display: -webkit-box;
@@ -6058,12 +6044,12 @@ h1#logo img {
   font: 400 30px "OpenSans", sans-serif;
   text-transform: uppercase; }
 
-.galery {
+.gallery {
   width: 100%;
   min-height: 950px; }
-  .galery .uploading-img {
+  .gallery .uploading-img {
     margin: 100px auto 80px auto; }
-  .galery .secondary__subtitle {
+  .gallery .secondary__subtitle {
     padding-bottom: 85px; }
 
 .secondary__title {
@@ -6150,11 +6136,11 @@ h1#logo img {
   .question__suggestion .secondary-btn {
     margin-top: 85px; }
 
-.galery__price {
+.gallery__price {
   padding: 100px 0 85px 0; }
-  .galery__price .uploading-img {
+  .gallery__price .uploading-img {
     margin-top: 100px; }
-  .galery__price .cost {
+  .gallery__price .cost {
     display: block;
     width: 105px;
     height: 42px;

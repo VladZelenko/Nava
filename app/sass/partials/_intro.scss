@@ -1,23 +1,29 @@
-video#itro__video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	width: auto;
-	height: 100%;
-	height: auto;
+// video#itro__video {
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	right: 0;
+// 	bottom: 0;
+// 	min-width: 100%;
+// 	width: auto;
+// 	height: 100%;
+// 	height: auto;
+// }
+.into {
+	width: 100%;
+	min-height: 800px;
+	background: url('../../img/intro-bg.png')no-repeat center center;
+	background-size: cover;
 }
 h1#logo {
 	img {
 		display: inline-block;
 		float: left;
-		position: relative;
-		z-index: 1;
+		// position: relative;
+		// z-index: 1;
 	}
 }
-.header {margin: 40px 0 225px 0;}
+// .header {margin: 40px 0 225px 0;}
 .nav {
 	display: flex;
 	justify-content: flex-end;
