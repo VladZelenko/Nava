@@ -38,11 +38,21 @@ $(document).ready(function() {
 });
 
 //uploading img x3
-$(document).ready(function(){
-	$('.up-btn').click(function(){
-			$('.hidden__files').slice(0,3).css({"display" : "block"}).removeClass('.hidden_files');
-	});
-});
+function showImages(){
+	var images = $('img.hide')
+	if (images.length == 0){
+		$('button#galery-btn').hide();
+	}
+	else {
+		$('img.hide').slice(0,3).removeClass('hide')
+	}
+}
+
+// $(document).ready(function(){
+// 	$('.up-btn').click(function(){
+// 			$('.hidden__files').slice(0,3).removeClass('.hidden__files')
+// 	});
+// });
 // $(document).ready(function(){
 // 	$('.up-btn').click(function(){
 // 		var a = $('.hidden__files');

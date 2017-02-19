@@ -6067,9 +6067,10 @@ h1#logo img {
 
 .gallery {
   width: 100%;
-  min-height: 950px; }
+  min-height: 950px;
+  padding: 0 0 80px 0; }
   .gallery .uploading-img {
-    margin: 100px auto 80px auto; }
+    margin: 100px auto 0 auto; }
   .gallery .secondary__subtitle {
     padding-bottom: 85px; }
   .gallery .banner {
@@ -6185,7 +6186,7 @@ h1#logo img {
     .overlay .caption__overlay a {
       display: block; }
 
-.hidden__files {
+.hide {
   display: none; }
 
 .question__suggestion {

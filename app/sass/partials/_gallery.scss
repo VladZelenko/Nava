@@ -1,7 +1,8 @@
 .gallery {
 	width: 100%;
 	min-height: 950px;
-	.uploading-img {margin: 100px auto 80px auto;}
+	padding: 0 0 80px 0;
+	.uploading-img {margin: 100px auto 0 auto;}
 	.secondary__subtitle {padding-bottom: 85px;}
 	.banner {
 		position: relative;
@@ -102,4 +103,4 @@
 		}
 	}
 }
-.hidden__files {display: none;}
+.hide {display: none;}
