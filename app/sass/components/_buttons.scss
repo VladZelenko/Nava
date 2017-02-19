@@ -29,19 +29,24 @@
 	}
 }
 .secondary-btn {
+	display: block;
 	max-width: 320px;
 	min-width: 300px;
 	width: 100%;
 	margin: 0 auto;
 	height: 60px;
+	color: $secondary_font_color;
+	font: 700 14px/60px $primary_font;
 	border-radius: 5px;
 	background-color: #e7434e;
 	border: none;
 	text-transform: uppercase;
+
 	&:hover {
 		border: 1px solid rgba(38, 38, 38, 0.3);
 		background-color: $secondary_font_color;
 		color: $primary_font_color;
 		transition: all .6s ease-in-out .1s;
+		text-decoration: none;
 	}
 }
