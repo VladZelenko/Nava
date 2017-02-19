@@ -37,7 +37,7 @@ $(document).ready(function() {
 	});
 });
 
-//uploading img x3
+//uploading img x3, gallery 1
 function showImages(){
 	var images = $('.hide')
 	if (images.length == 0){
@@ -47,7 +47,7 @@ function showImages(){
 		$('.hide').slice(0,3).removeClass('hide')
 	}
 }
-
+//gallery 2
 function showImagesPrice(){
 	var images = $('.hide-up')
 	if (images.length == 0){
@@ -63,22 +63,8 @@ function showImagesPrice(){
 // 			$('.hidden__files').slice(0,3).removeClass('.hidden__files')
 // 	});
 // });
-// $(document).ready(function(){
-// 	$('.up-btn').click(function(){
-// 		var a = $('.hidden__files');
-// 		for (i = 0, i <= 3, i++){
-// 			for ( j = 0, j <= a.length, j++) {
 
-// 			}
-// 		}
-// 	});
-// });
-
-//мб спрацює за деяких умов
-// if (a.length == 0) {
-// 	$('.up-btn').css({"display" : "none"})
-// }
-//
+//popup
 $(document).ready(function(){
 	$('a.poplight[href*=\\#]').click(function() {
 		var popID = $(this).attr('rel');
